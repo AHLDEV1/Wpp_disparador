@@ -1,0 +1,26 @@
+Disparador de mensagens para clientes! Ele está configurado para CNPJ, caso queira usar para clientes de CPF é necessário mudar o script dentro do código (whatsapp_disparador.py)
+
+Como funciona?
+
+1 Instale o python no computador caso não tenha instalado. Ele está na pasta "py e drivers"
+
+2 Após instalar o python abra o arquivo "Setup" e aguarde ele instalar os arquivos necessários para utilizar (Caso dê erro, reinicie o computador)
+
+3 Separe a planilha com nome de "contacts" na formatação xlsx com os clientes que você quer disparar, mantendo o padrão de colunas e cole dentro da pasta "dist"
+
+Padrao: Coluna A = CNPJ // Coluna B = Razao Social // Coluna C = Plano // Coluna D Endereco e Coluna F = Numero para qual ele irá disparar...
+
+Obs: deixe as colunas G e H para o retorno do disparador. 
+
+3 entre na pasta "py e drivers", copie a pasta "drivers" e cole dentro da pasta "dist"
+
+3 dentro da pasta dist, estará o disparador, abra ele e configure o delay e o navegador que você queira usar
+
+4 Escaneie o QRcode do Whatsapp para entrar. Recomendo abrir uma vez antes de começar a disparar pois a primeira vez ele precisa criar uma pasta com o perfil de cada navegador
+
+5 Aguarde o disparo. Caso ele não comece a disparar, feche tudo novamente e reinicie.
+
+Importante não abrir outra aba no navegador feche e execute o disparador sem ter outra guia aberta. 
+
+
+

@@ -27,8 +27,8 @@ if exist build rmdir /s /q build
 if exist dist rmdir /s /q dist
 if exist whatsapp_disparador.spec del whatsapp_disparador.spec
 
-REM Gera o executável "Disparador.exe" usando PyInstaller com ícone
-py -m PyInstaller --onefile --name Disparador --icon="C:\Users\arthu\Downloads\Wpp_disparador-main\Py e drivers\icone.ico" whatsapp_disparador.py
+REM Gera o executável "Disparador.exe" usando PyInstaller com ícone relativo
+py -m PyInstaller --onefile --name Disparador --icon="%cd%\Py e drivers\icone.ico" whatsapp_disparador.py
 
 echo.
 echo ==============================================
